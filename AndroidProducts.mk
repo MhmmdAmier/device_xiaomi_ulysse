@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/gabuters_ulysse.mk
+    $(LOCAL_DIR)/lineage_ulysse.mk
 
 COMMON_LUNCH_CHOICES := \
-    gabuters_ulysse-user \
-    gabuters_ulysse-userdebug \
-    gabuters_ulysse-eng
+    lineage_ulysse-user \
+    lineage_ulysse-userdebug \
+    lineage_ulysse-eng
