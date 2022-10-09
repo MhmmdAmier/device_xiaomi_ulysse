@@ -34,7 +34,10 @@ RICE_CHIPSET := msm8937
 SUSHI_BOOTANIMATION := 720
 
 # Graphene Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA := true
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
+
+# Spoof build description/fingerprint as pixel device
+TARGET_USE_PIXEL_FINGERPRINT := true
 
 # Quick tap feature
 TARGET_SUPPORTS_QUICK_TAP := true
